@@ -1,0 +1,86 @@
+package poly;
+
+import java.util.Scanner;
+
+public class Assignment_1 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int chon;
+        while (true) {
+                Menu();
+            chon = Integer.parseInt(sc.nextLine());
+            switch (chon)
+            {
+            case 1:
+                System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("✔Nhập Danh Sách Học Viên✔");
+                break;
+            case 2:
+                System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("✔Xuất Danh Sách Học Viên✔");
+                break;
+            case 3:
+                System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("  ✔Tìm Học Viên Theo Khoảng Điểm✔ ");
+                break;
+            case 4:
+                System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("    ✔Tìm Học Viên Theo Học Lực✔   ");
+                break;
+            case 5:
+                 System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("✔Tìm Theo Mã Số và Cập Nhật Thông Tin SV✔");
+                break;
+            case 6:
+                System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("    ✔Sắp Xếp Học Viên Theo Điểm✔  ");
+                break;
+            case 7:
+                System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("    ✔5 Học Viên Có Điểm Cao Nhất✔ ");
+                break;
+            case 8:
+                System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("    ✔Điểm Trung Bình Của Cả Lớp✔  ");
+                break;
+            case 9:
+                System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("    ✔Tìm Học Viên Theo Học Lực✔  ");
+                break;
+            case 10:
+                 System.out.println("    ★。* 。*★Kết Quả★ 。* 。*★    ");
+                System.out.println("✔Tổng Hợp Số Học Viên Theo Học Lực✔");
+                break;
+            case 0:
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Bạn đã sai rồi, Vui lòng nhập lại!");
+                break;
+            }
+            
+        }
+        
+    }
+     static void Menu()
+    {
+         System.out.println("  ╓ ________________________________________________╖");
+        System.out.println(" ║( ¬‿¬)˛ *.˛*.˛°˛♥Quản Lí Học Viên♥*.°.˛*.˛°˛.( ¬‿¬)║");
+        System.out.println("║               01-Nhập Danh Sách Học Viên            ║");
+        System.out.println("║               01- Xuất Danh Sách Học Viên           ║");
+        System.out.println("║            02-Tìm Học Viên Theo Khoảng Điểm         ║");
+        System.out.println("║              03-Tìm Học Viên Theo Học Lực           ║");
+        System.out.println("║       04-Tìm Theo Mã Số và Cập Nhật Thông Tin SV    ║");
+        System.out.println("║              05-Sắp Xếp Học Viên Theo Điểm          ║");
+        System.out.println("║             06- 5 Học Viên Có Điểm Cao Nhất         ║");
+        System.out.println("║              07-Điểm Trung Bình Của Cả Lớp          ║");
+        System.out.println("║              08-Tìm Học Viên Theo Học Lực           ║");
+        System.out.println("║          09-Tổng Hợp Số Học Viên Theo Học Lực       ║");
+        System.out.println("║                     ✏  END  ✍                      ║");
+        System.out.println("╙ ____________________________________________________╜");
+        System.out.println("〖            →   Vui Lòng Chọn Từ 1 Đến 9   ←        〗");
+        System.out.printf("☞ ☞ Mời Bạn Nhập:");
+    }
+    
+}
